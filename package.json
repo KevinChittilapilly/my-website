@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "trevahok",
-  "homepage": "https://trevahok.github.io",
+  "name": "my-app",
+  "homepage": "https://KevinChittilapilly.github.io/my-website",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
