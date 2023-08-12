@@ -103,25 +103,20 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        
-        <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
-            <div className="projects-heading-div">
-              <div className="projects-heading-text-div">
-                <h1
-                  className="projects-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  Projects
-                </h1>
-              </div>
-            </div>
-          </Fade>
-        </div>
+
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <Button
+            text="See More"
+            newTab={true}
+            theme={theme}
+            href={'https://github.com/KevinChittilapilly'}
+            className="portfolio-repo-btn"
+          />
         </div>
         {renderPublications()}
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />

@@ -39,7 +39,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
       "name": "Age-Detector",
       "createdAt": "2018-11-03T05:00:56Z",
-      "url": "https://github.com/ashutosh1919/Stock-Prediction-using-LSTM",
+      "url": "https://github.com/KevinChittilapilly/Age-Detector",
       "description": "Built an age detector using CNN and Open CV. I have used Adience Dataset to train the model. The model classifies into a total of eight age brackets",
       "isFork": false,
       "languages": [
