@@ -1,0 +1,49 @@
+[
+  {
+    "Company Name": "Purdue University",
+    "Title": "Teaching Assistant",
+    "Description": "Working as Teaching Assistant for the course Database Fundamentals and Advanced Coding Security",
+    "Location": "West Lafayette, Indiana, US",
+    "Started On": "Aug 2023",
+    "Finished On": "Present"
+  },
+  {
+    "Company Name": "Virtusa Consulting Pvt Ltd",
+    "Title": "Engineer Technology",
+    "FullTime": true,
+    "Description": [
+      "Designed and developed responsive web-sites using React and JavaScript and mobile applications using React Native",
+      "Led the team in the development of Recommendation Systems with Python and Machine Learning",
+      "Managed integration and deployments, pull requests, e2e testing, code reviews",
+      "Integrated code with Sonarlint and Adobe analytics to provide in-depth analysis of customer experience",
+      "Developed and implemented a highly effective Recommendation System, resulting in over 50% accuracy and serving a large user base of 250,000 active users"
+    ],
+    "Location": "Chennai Area, India",
+    "Started On": "Aug 2020",
+    "Finished On": "Dec 2022"
+  },
+  {
+    "Company Name": "Examly",
+    "Title": "Intern",
+    "Description": "Worked with Full stack applications using Java, MySQL, Spring boot, JavaScript",
+    "Location": "Chennai Area, India",
+    "Started On": "Dec 2019",
+    "Finished On": "May 2020"
+  },
+  {
+    "Company Name": "AGC Networks Limited",
+    "Title": "Intern",
+    "Description": "Worked with VoIP and Other IP Protocols",
+    "Location": "Gandhinagar, Gujarat, India",
+    "Started On": "Jun 2019",
+    "Finished On": "Jul 2019"
+  },
+  {
+    "Company Name": "Vellore Institute of Technology",
+    "Title": "FreeLance Web Developer",
+    "Description": "Designed and developed websites for two international conferences for VIT under the guidance of Dr. Raj Rajeshwari.",
+    "Location": "VIT",
+    "Started On": "Apr 2018",
+    "Finished On": "Jun 2018"
+  }
+]
