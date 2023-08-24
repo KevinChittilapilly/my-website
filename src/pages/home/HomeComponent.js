@@ -8,6 +8,7 @@ import TopButton from "../../components/topButton/TopButton";
 class Home extends Component {
   render() {
     console.log(this.props.theme);
+    console.log(process.env)
     return (
       <div>
         <Header theme={this.props.theme} />
