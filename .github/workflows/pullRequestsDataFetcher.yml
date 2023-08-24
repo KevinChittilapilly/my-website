@@ -48,4 +48,5 @@ jobs:
             }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REACT_APP_RESUME: ${{ vars.REACT_APP_RESUME }}
       - run: "echo 'Pull Requests Data: ${{ steps.get_latest_release.outputs.data }}'"
