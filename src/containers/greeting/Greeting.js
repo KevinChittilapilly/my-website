@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -8,6 +8,19 @@ import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
+  const [user,setUser] = useState(['kev']);
+  const [name,setName] = useState()
+
+  const addName=(e)=>{
+    const newUser = JSON.parse(JSON.stringify(user));
+    newUser.push(name);
+    setUser(newUser);
+    setName('');
+  }
+  const delName = (val) =>{
+    const newUser = user.filter((us)=>us!=val)
+    setUser(newUser)
+  }
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -46,6 +59,29 @@ export default function Greeting(props) {
 						></img> */}
             <FeelingProud theme={theme} />
           </div>
+        </div>
+        <div>
+          Hello {console.log(user)}
+         
+          
+            <input
+              inputMode="text"
+              placeholder="Add name"
+              value={name}
+              onChange={(e)=>{setName(e.target.value)}}
+            />
+            <button style={{height:'50px',width:'50px'}} onClick={()=>addName(name)} title="Button" name="Button" placeholder="Button">Add Name</button>
+          
+          {user.map((temp)=>{
+            return (
+              <>
+              <div>
+                {temp}
+                </div>
+                <button onClick={()=>delName(temp)}>Delete me</button>
+                </>
+            )
+          })}
         </div>
       </div>
     </Fade>

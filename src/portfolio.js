@@ -197,19 +197,19 @@ const degrees = {
   degrees: [
     {
       title: "Purdue University, West Lafayette",
-      subtitle: "Masters in Computer and Information Technology",
+      subtitle: "Masters in Computer and Information Technology.  GPA (4.0/4.0)",
       logo_path: "purdue-logo.png",
       alt_name: "Purdue",
       duration: "2023-Present",
       descriptions: [
         "⚡ I am focussed on learning active areas such as Fairness in AI, NLP etc.",
         "⚡ My research focusses on Estimation of Fairness given any dataset in real time",
-        "⚡ I will be working as a Teaching Assistant for the course Database Fundamentals and Advanced Coding Security",
+        "⚡ I will be working as a Teaching Assistant for the course Database Administration and Advanced Coding Security",
       ],
     },
     {
       title: "Vellore Institute of Technology",
-      subtitle: "B.Tech. in Electronics and Communication Engineering",
+      subtitle: "B.Tech. in Electronics and Communication Engineering   GPA(8.85/10)",
       logo_path: "vit-logo.png",
       alt_name: "VIT",
       duration: "2016 - 2020",
