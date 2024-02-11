@@ -61,27 +61,6 @@ export default function Greeting(props) {
           </div>
         </div>
         <div>
-          Hello {console.log(user)}
-         
-          
-            <input
-              inputMode="text"
-              placeholder="Add name"
-              value={name}
-              onChange={(e)=>{setName(e.target.value)}}
-            />
-            <button style={{height:'50px',width:'50px'}} onClick={()=>addName(name)} title="Button" name="Button" placeholder="Button">Add Name</button>
-          
-          {user.map((temp)=>{
-            return (
-              <>
-              <div>
-                {temp}
-                </div>
-                <button onClick={()=>delName(temp)}>Delete me</button>
-                </>
-            )
-          })}
         </div>
       </div>
     </Fade>
