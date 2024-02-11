@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.ce885d8a.css",
-    "main.js": "/my-website/static/js/main.b85fb1d6.js",
+    "main.js": "/my-website/static/js/main.4d46ab23.js",
     "static/media/portfolio.gif": "/my-website/static/media/portfolio.2d4f8cc945db20143116.gif",
     "static/media/certi.png": "/my-website/static/media/certi.3d392d6f58a52cb01a5d.png",
     "static/media/fa-solid-900.svg": "/my-website/static/media/fa-solid-900.decfdcb63165be4a18b6.svg",
@@ -64,10 +64,10 @@
     "static/media/talksCardBackAlt.svg": "/my-website/static/media/talksCardBackAlt.6a48aa5b1199a0c0214f.svg",
     "static/media/talksCardBack.svg": "/my-website/static/media/talksCardBack.31f4e73428eb4215e54a.svg",
     "main.ce885d8a.css.map": "/my-website/static/css/main.ce885d8a.css.map",
-    "main.b85fb1d6.js.map": "/my-website/static/js/main.b85fb1d6.js.map"
+    "main.4d46ab23.js.map": "/my-website/static/js/main.4d46ab23.js.map"
   },
   "entrypoints": [
     "static/css/main.ce885d8a.css",
-    "static/js/main.b85fb1d6.js"
+    "static/js/main.4d46ab23.js"
   ]
 }
