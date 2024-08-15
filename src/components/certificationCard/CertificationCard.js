@@ -53,7 +53,7 @@ class CertificationCard extends Component {
               className="cert-body-subtitle"
               style={{ color: theme.secondaryText }}
             >
-              {certificate.Authority}
+              {certificate.Authority=="AWS"?certificate.icon:certificate.Authority}
             </h3>
           </div>
         </div>

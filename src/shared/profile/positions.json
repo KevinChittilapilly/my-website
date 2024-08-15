@@ -8,8 +8,20 @@
     "Finished On": "Present"
   },
   {
+    "Company Name": "OmniscientMachines.AI",
+    "Title": "Software Engineer Intern",
+    "FullTime": true,
+    "Description": [
+      "Implemented a Retrieval-Augmented Generation (RAG) system enabling multi-file uploads and automated user query responses",
+      "Developed cross platform Mobile applications with React Native and Django resulting in 20% increase in app downloads"
+    ],
+    "Location": "San Ramaon, CA",
+    "Started On": "July 2024",
+    "Finished On": "Aug 2024"
+  },
+  {
     "Company Name": "Virtusa Consulting Pvt Ltd",
-    "Title": "Engineer Technology",
+    "Title": "Software Engineer",
     "FullTime": true,
     "Description": [
       "Designed and developed responsive web-sites using React and JavaScript and mobile applications using React Native",
@@ -24,7 +36,7 @@
   },
   {
     "Company Name": "Examly",
-    "Title": "Intern",
+    "Title": "Software Engineer Intern",
     "Description": "Worked with Full stack applications using Java, MySQL, Spring boot, JavaScript",
     "Location": "Chennai Area, India",
     "Started On": "Dec 2019",
