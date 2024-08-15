@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2434873.css",
-    "main.js": "/static/js/main.098c555f.js",
+    "main.js": "/static/js/main.53493812.js",
     "static/media/portfolio.gif": "/static/media/portfolio.2d4f8cc945db20143116.gif",
     "static/media/certi.png": "/static/media/certi.3d392d6f58a52cb01a5d.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.decfdcb63165be4a18b6.svg",
@@ -64,10 +64,10 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.6a48aa5b1199a0c0214f.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.31f4e73428eb4215e54a.svg",
     "main.e2434873.css.map": "/static/css/main.e2434873.css.map",
-    "main.098c555f.js.map": "/static/js/main.098c555f.js.map"
+    "main.53493812.js.map": "/static/js/main.53493812.js.map"
   },
   "entrypoints": [
     "static/css/main.e2434873.css",
-    "static/js/main.098c555f.js"
+    "static/js/main.53493812.js"
   ]
 }
